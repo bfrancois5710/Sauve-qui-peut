@@ -1,7 +1,5 @@
-# Sauve-qui-peut-
+# Sauve-qui-peut
 MedhiMitchel, bibliothécaire rebelle
-
-# Sauve qui peu — 
 
 Jeu web minimaliste 
 
