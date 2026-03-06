@@ -8,22 +8,20 @@
 </head>
 <body>
 
-<div id="ui">
-<h1>Sauve qui peu</h1>
-<p>MedhiMitchel, bibliothécaire rebelle, tente de fuir la bibliothèque.</p>
-<p>ESPACE ou ↑ pour sauter</p>
-<button id="startBtn">START</button>
+<div id="menu">
+<h1>SAUVE QUI PEU</h1>
+<p>MedhiMitchel doit fuir la bibliothèque.</p>
+<button onclick="startGame()">PLAY</button>
 </div>
 
 <canvas id="gameCanvas"></canvas>
 
 <div id="gameOver" class="hidden">
 <h2>GAME OVER</h2>
-<p id="finalScore"></p>
-<button onclick="restartGame()">Rejouer</button>
+<p id="scoreText"></p>
+<button onclick="restart()">RETRY</button>
 </div>
 
 <script src="game.js"></script>
-
 </body>
 </html>
